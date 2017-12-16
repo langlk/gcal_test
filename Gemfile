@@ -13,6 +13,7 @@ gem 'rails-ujs'
 gem 'bcrypt'
 gem 'rest-client'
 gem 'google-api-client'
+gem 'omniauth-google-oauth2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
