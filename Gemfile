@@ -14,6 +14,7 @@ gem 'bcrypt'
 gem 'rest-client'
 gem 'google-api-client'
 gem 'omniauth-google-oauth2'
+gem 'materialize-sass'
 
 group :development, :test do
   gem 'byebug', platform: :mri
