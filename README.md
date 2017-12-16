@@ -14,7 +14,7 @@ _Google login tutorial is [here](https://medium.com/@ajayramesh/social-login-wit
       GOOGLE_CLIENT_SECRET = "[your_client_secret]"
       ```
     3. Use these in `config/initializers/omniauth.rb` instead of actual id/secret:
-      ```Ruby
+      ```ruby
       Rails.application.config.middleware.use OmniAuth::Builder do
         provider :google_oauth2, "#{ENV['GOOGLE_CLIENT_ID']}", "#{ENV['GOOGLE_CLIENT_SECRET']}"
       end
